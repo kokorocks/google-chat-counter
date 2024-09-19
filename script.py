@@ -1,7 +1,7 @@
 import requests
 
-API_KEY = input('Input your API key here')#'YOUR_API_KEY'  # Replace with your API key
-SPACE_ID = input('Enter chat id which can be found on the online google chat')#'YOUR_SPACE_ID'  # Replace with your space ID
+API_KEY = input('Input your API key here: ')#'YOUR_API_KEY'  # Replace with your API key
+SPACE_ID = input('Enter chat id which can be found on the online google chat: ')#'YOUR_SPACE_ID'  # Replace with your space ID
 BASE_URL = 'https://chat.googleapis.com/v1/spaces'
 
 def get_messages_count(space_id):
